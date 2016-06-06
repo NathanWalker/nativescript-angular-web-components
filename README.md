@@ -18,7 +18,7 @@ Interop/Reusability between NativeScript and web templates.
 
 ## What's next
 
-* Build out remaning NativeScript components as web components. [See Issues]().
+* Build out remaning NativeScript components as web components. [See Issues](https://github.com/NathanWalker/nativescript-angular-web-components/issues).
 * Ability to render the inverse direction: Statically generate NativeScript view templates from HTML web templates to quickly bring a web app into the NativeScript world.
 
 ## Background

@@ -1,6 +1,0 @@
-#!/usr/bin/env bash
-set -e
-
-pushd "$SRCROOT/internal/metadata-generator/bin"
-./metadata-generation-build-step
-popd

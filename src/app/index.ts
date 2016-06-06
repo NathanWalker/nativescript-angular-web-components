@@ -1,2 +1,2 @@
 export {environment} from './environment';
-export {NativescriptAngularWebComponentsAppComponent} from './nativescript-angular-web-components.component';
+export {AppComponent} from './app.component';

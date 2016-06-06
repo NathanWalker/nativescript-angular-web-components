@@ -1,0 +1,41 @@
+clang version 3.8.0 (tags/RELEASE_380/final)
+Target: i386-apple-darwin
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios7.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "242" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.8.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk" "-I" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator/include" "-I" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal" "-I" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/NativeScript/include" "-F/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator" "-F/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/../../lib/iOS" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-std=gnu99" "-fdebug-compilation-dir" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-7.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/../../lib/iOS"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal
+ /Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/NativeScript/include
+ /Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator (framework directory)
+ ../lib/clang/3.8.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.
+clang version 3.8.0 (tags/RELEASE_380/final)
+Target: i386-apple-darwin
+Thread model: posix
+InstalledDir: 
+clang Invocation:
+ "clang-tool" "-cc1" "-triple" "i386-apple-ios7.0.0" "-fsyntax-only" "-disable-free" "-disable-llvm-verifier" "-main-file-name" "umbrella.h" "-mrelocation-model" "pic" "-pic-level" "2" "-mthread-model" "posix" "-mdisable-fp-elim" "-masm-verbose" "-target-cpu" "yonah" "-target-linker-version" "242" "-v" "-dwarf-column-info" "-debugger-tuning=lldb" "-resource-dir" "../lib/clang/3.8.0" "-isysroot" "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk" "-I" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator/include" "-I" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal" "-I" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/NativeScript/include" "-F/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator" "-F/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/../../lib/iOS" "-D" "DEBUG=1" "-Wno-unknown-pragmas" "-Wno-ignored-attributes" "-std=gnu99" "-fdebug-compilation-dir" "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/metadata-generator/bin" "-ferror-limit" "0" "-fmessage-length" "0" "-stack-protector" "1" "-fblocks" "-fimplicit-module-maps" "-fobjc-runtime=ios-7.0.0" "-fencode-extended-block-signature" "-fobjc-exceptions" "-fexceptions" "-fmax-type-align=16" "-fdiagnostics-show-option" "-x" "objective-c" "umbrella.h"
+
+clang -cc1 version 3.8.0 based upon LLVM 3.8.0 default target x86_64-apple-darwin15.5.0
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator/include"
+ignoring nonexistent directory "/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/../../lib/iOS"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/local/include"
+ignoring nonexistent directory "/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/Library/Frameworks"
+#include "..." search starts here:
+#include <...> search starts here:
+ /Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal
+ /Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/NativeScript/include
+ /Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator (framework directory)
+ ../lib/clang/3.8.0/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/usr/include
+ /Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk/System/Library/Frameworks (framework directory)
+End of search list.

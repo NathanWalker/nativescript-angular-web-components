@@ -10,7 +10,11 @@
     "format": "clang-format -i -style=file --glob=src/**/*.ts",
     "test": "ng test",
     "pree2e": "webdriver-manager update",
-    "e2e": "protractor"
+    "e2e": "protractor",
+    "start.ios": "cd nativescript && tns emulate ios",
+    "start.livesync.ios": "cd nativescript && tns livesync ios --emulator --watch",
+    "start.android": "cd nativescript && tns emulate android",
+    "start.livesync.android": "cd nativescript && tns livesync android --emulator --watch"
   },
   "private": true,
   "dependencies": {
@@ -21,7 +25,10 @@
     "@angular/platform-browser": "2.0.0-rc.1",
     "@angular/platform-browser-dynamic": "2.0.0-rc.1",
     "@angular/router": "2.0.0-rc.1",
+    "@angular/router-deprecated": "2.0.0-rc.1",
     "es6-shim": "^0.35.0",
+    "hammerjs": "^2.0.8",
+    "nativescript-ng2-magic": "^1.5.7",
     "reflect-metadata": "0.1.3",
     "rxjs": "5.0.0-beta.6",
     "systemjs": "0.19.26",
@@ -37,6 +44,7 @@
     "karma": "^0.13.15",
     "karma-chrome-launcher": "^0.2.3",
     "karma-jasmine": "^0.3.8",
+    "node-sass": "^3.7.0",
     "protractor": "^3.3.0",
     "ts-node": "^0.5.5",
     "tslint": "^3.6.0",

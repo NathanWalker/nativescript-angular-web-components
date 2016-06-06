@@ -1,0 +1,27 @@
+-x
+objective-c
+-arch
+i386
+-std=gnu99
+-fobjc-arc
+-fpascal-strings
+-O0
+-DDEBUG=1
+-isysroot
+/Applications/Xcode.app/Contents/Developer/Platforms/iPhoneSimulator.platform/Developer/SDKs/iPhoneSimulator9.3.sdk
+-fasm-blocks
+-mios-simulator-version-min=7.0
+-g
+-fobjc-abi-version=2
+-fobjc-legacy-dispatch
+-iquote
+-iquote
+-I/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator/include
+-I/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal
+-I/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/internal/NativeScript/include
+-F/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/build/emulator
+-F/Users/nathan/Documents/github/NathanWalker/nativescript-angular-web-components/nativescript/platforms/ios/../../lib/iOS
+i386-apple-darwin15.5.0
+"4.2.1 Compatible Apple LLVM 7.3.0 (clang-703.0.31)"
+SDK_PRODUCT_BUILD_VERSION=13E230
+13E230

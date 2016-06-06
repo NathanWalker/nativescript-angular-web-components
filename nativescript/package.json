@@ -1,0 +1,39 @@
+{
+  "description": "NativeScript Application",
+  "license": "SEE LICENSE IN <your-license-filename>",
+  "readme": "NativeScript Application",
+  "repository": "<fill-your-repository-here>",
+  "nativescript": {
+    "id": "org.nativescript.nativescript",
+    "tns-ios": {
+      "version": "2.0.1"
+    },
+    "tns-android": {
+      "version": "2.0.0"
+    }
+  },
+  "dependencies": {
+    "@angular/common": "2.0.0-rc.1",
+    "@angular/compiler": "2.0.0-rc.1",
+    "@angular/core": "2.0.0-rc.1",
+    "@angular/http": "2.0.0-rc.1",
+    "@angular/platform-browser": "2.0.0-rc.1",
+    "@angular/platform-browser-dynamic": "2.0.0-rc.1",
+    "@angular/platform-server": "2.0.0-rc.1",
+    "@angular/router": "2.0.0-rc.1",
+    "@angular/router-deprecated": "2.0.0-rc.1",
+    "nativescript-angular": "0.1.1",
+    "nativescript-ng2-magic": "^1.5.7",
+    "tns-core-modules": "^2.0.0"
+  },
+  "devDependencies": {
+    "babel-traverse": "6.9.0",
+    "babel-types": "6.9.0",
+    "babylon": "6.8.0",
+    "filewalker": "0.1.2",
+    "lazy": "1.0.11",
+    "nativescript-dev-sass": "^0.1.0",
+    "nativescript-dev-typescript": "^0.3.2",
+    "typescript": "^1.8.10"
+  }
+}

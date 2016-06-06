@@ -1,0 +1,33 @@
+html,
+body {
+  padding:0;
+  margin:0;
+  font-family: sans-serif;
+}
+
+Image {
+  margin:20;
+}
+
+ListView {
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+  
+  StackLayout {
+    &.even {
+      Label {
+        background-color: #efefef;
+      }
+    }
+    div {
+      padding:0 !important;  
+      
+      Label {
+        text-align: left;
+        padding:5px;
+      }
+    }
+    
+  }
+}

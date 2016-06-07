@@ -31,6 +31,7 @@ That right there ^ is 1 view file using NativeScript XML which can be rendered i
 No magic here, this project will allow your NativeScript views to be used directly on the web with [Angular 2](https://angular.io/). 
 
 This creates a few opportunities to name a few:
+* Quickly prototype a web app from your NativeScript app
 * Ability to statically render web templates from a NativeScript (only) app
   * Say you have a NativeScript *only* mobile app but now want to build a web app based on it's features?   
     * In the future, you could run your views through a compiler which would spit out html equivalents to begin developing your complimentary web app quickly

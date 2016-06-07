@@ -51,19 +51,13 @@ export class AppComponent {
     }
   }
 
-  public onLoaded(e: any) {
-    console.log(`onLoaded`);
-    console.log(e);
-  }
-
-  public onItemLoading(e: any) {
-    console.log(`onItemLoading`);
-    console.log(e);
-  }
-
   public onItemTap(e: any) {
     console.log(`onItemTap`);
     console.log(e);
+  }
+
+  public selectUser(user: any) {
+    console.log(user.name.first + ' ' + user.name.last);
   }
 
   private loadUsers() {

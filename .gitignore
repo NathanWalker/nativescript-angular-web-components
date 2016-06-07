@@ -28,9 +28,11 @@ testem.log
 .DS_Store
 Thumbs.db
 
+nativescript/app/**/*.css
 nativescript/app/app
 nativescript/hooks
 nativescript/node_modules
 nativescript/platforms
+src/app/**/*.css
 src/app/**/*.js
 src/app/**/*.js.map

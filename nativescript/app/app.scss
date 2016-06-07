@@ -1,0 +1,42 @@
+﻿/*button, label, stack-layout {
+    horizontal-align: center;    
+}
+
+button {
+    font-size: 36;
+}
+
+.title {
+    font-size: 30;
+    margin: 20;
+}
+
+.message {
+    font-size: 20;
+    color: #284848;
+    text-align: center;
+    margin: 0 20;
+} */
+
+ActionBar {
+  background-color: #4E75E2;
+  color:#fff;
+}
+
+ListView {
+  max-width: 320px;
+  margin: 0 auto;
+  display: block;
+  
+  StackLayout {
+    padding:5 0 0 10;
+    text-align:left;
+    
+    &.even {
+      background-color: #efefef;
+      Label {
+        
+      }
+    }
+  }
+}

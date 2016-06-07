@@ -12,10 +12,11 @@
   <Button [text]="toggleText" (tap)="changeText()"></Button>
   <Label [text]="userHeading" textWrap="true" class="heading"></Label>
   
-  <ListView [items]="users" (loaded)="onLoaded($event)" (itemLoading)="onItemLoading($event)" (itemTap)="onItemTap($event)">
+  <ListView [items]="users">
       <template let-item="item" let-odd="odd" let-even="even">
-          <StackLayout [ngClass]="{odd: odd, even: even}">
-              <Label [text]="item.name?.first + ' ' + item.name?.last" textWrap="true"></Label>
+          <StackLayout [ngClass]="{odd: odd, even: even}"
+            (tap)="selectUser(item)">
+            <Label [text]="item.name?.first + ' ' + item.name?.last" textWrap="true"></Label>
           </StackLayout>
       </template>
   </ListView>

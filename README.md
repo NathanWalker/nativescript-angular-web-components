@@ -28,7 +28,7 @@ What if you had invested resources and time into building that beautiful *native
 
 That right there ^ is 1 view file using NativeScript XML which can be rendered in a NativeScript app **AS WELL AS** on the web.
 
-No magic here, a new module is in the works which will allow your NativeScript views to be used directly on the web with [Angular 2](https://angular.io/). 
+No magic here, this project will allow your NativeScript views to be used directly on the web with [Angular 2](https://angular.io/). 
 
 This creates a few opportunities to name a few:
 * Ability to statically render web templates from a NativeScript (only) app
@@ -39,7 +39,7 @@ This creates a few opportunities to name a few:
 
 Some motivations behind this effort are explained [here](https://github.com/NativeScript/NativeScript/issues/1612).
 
-You can get involved with this effort and help shape it's direction by contributing [here]().
+You can get involved with this effort and help shape it's direction by contributing, start with the issues listed [here](https://github.com/NathanWalker/nativescript-angular-web-components/issues).
 
 The jury is out on the insanity of it all.
 

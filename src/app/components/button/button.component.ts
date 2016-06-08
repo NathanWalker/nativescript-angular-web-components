@@ -1,4 +1,4 @@
-import { Component, Input, ElementRef, OnInit } from '@angular/core';
+import { Component, Input, ElementRef } from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -6,13 +6,10 @@ import { Component, Input, ElementRef, OnInit } from '@angular/core';
   templateUrl: 'button.component.html',
   styleUrls: ['button.component.css']
 })
-export class ButtonComponent implements OnInit {
+export class ButtonComponent {
   @Input() text: string;
   
-  constructor(private el: ElementRef) { }
-
-  ngOnInit() {
+  constructor(private el: ElementRef) { 
     this.el.nativeElement.setAttribute('type', 'submit');
   }
-
 }

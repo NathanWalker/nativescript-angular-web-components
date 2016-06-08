@@ -1,19 +1,11 @@
-import { Component, OnInit, Input } from '@angular/core';
-import { ActionItemComponent } from '../action-item/';
+import { Component, Input } from '@angular/core';
 
 @Component({
   moduleId: module.id,
   selector: 'ActionBar',
   templateUrl: 'action-bar.component.html',
-  styleUrls: ['action-bar.component.css'],
-  directives: [ActionItemComponent]
+  styleUrls: ['action-bar.component.css']
 })
-export class ActionBarComponent implements OnInit {
+export class ActionBarComponent {
   @Input() title: string;
-  
-  constructor() {}
-
-  ngOnInit() {
-  }
-
 }

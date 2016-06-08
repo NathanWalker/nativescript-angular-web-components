@@ -8,12 +8,9 @@ import { Component, OnInit, Input, OnChanges } from '@angular/core';
 })
 export class ImageComponent implements OnChanges {
   @Input() src: string;
-  public imgSrc: string
-  
-  constructor() {}
+  public imgSrc: string;
 
   ngOnChanges() {
-    console.log('ngOnChanges');
     if (this.src) {
       if (this.src.indexOf('~') === 0) {
         // local file  
@@ -23,5 +20,4 @@ export class ImageComponent implements OnChanges {
       }
     }
   }
-
 }

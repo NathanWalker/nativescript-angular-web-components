@@ -1,4 +1,4 @@
-import { Component, OnInit, Input } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   moduleId: module.id,
@@ -6,12 +6,6 @@ import { Component, OnInit, Input } from '@angular/core';
   templateUrl: 'label.component.html',
   styleUrls: ['label.component.css']
 })
-export class LabelComponent implements OnInit {
+export class LabelComponent {
   @Input() text: string;
-  
-  constructor() {}
-
-  ngOnInit() {
-  }
-
 }

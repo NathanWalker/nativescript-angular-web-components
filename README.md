@@ -1,5 +1,7 @@
 # Render NativeScript views on the web
 
+To [Contribute, read this](https://github.com/NathanWalker/nativescript-angular-web-components/blob/master/CONTRIBUTING.md).
+
 ## Virtual Insanity with NativeScript Views: Blurred lines with {N} + Angular 2
 
 ![Jamiroquai](https://cdn.filestackcontent.com/79pxU05WSNmhndb0CEVv?v=0)

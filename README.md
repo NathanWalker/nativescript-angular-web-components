@@ -18,7 +18,7 @@ We all love to twist our technology, sometimes motivated by useful objectives an
 Unless you truly have been living underground where there may be no sound, you have probably heard of [NativeScript](https://www.nativescript.org/), the open source cross-platform framework for building native apps using JavaScript, CSS, and XML.
 
 Blah, blah, blah, right?
-Lets twist things up a bit.
+Let’s twist things up a bit.
 
 What if we could use NativeScript views to build web apps? Wait, huh?
 
@@ -66,7 +66,7 @@ Interop/Reusability between NativeScript and web templates.
 
 ## What's next
 
-* Build out remaning NativeScript components as web components. [See Issues](https://github.com/NathanWalker/nativescript-angular-web-components/issues).
+* Build out remaining NativeScript components as web components. [See Issues](https://github.com/NathanWalker/nativescript-angular-web-components/issues).
 * Ability to render the inverse direction: Statically generate NativeScript view templates from HTML web templates to quickly bring a web app into the NativeScript world.
 
 ## Background
